@@ -1,0 +1,61 @@
+
+/*Estiliza o container para centralizar os itens*/
+.container{
+	background-color: rgb(176,224,230);
+}
+/*ESTILIZA TODA A LINHA QUE CONTEM OS CONTEUDOS*/
+.row{
+	justify-content: center; /*centraliza*/
+
+}
+/*ESTILIZA O MENU*/
+#menu ul{
+	
+}
+/* ---------- ESTILIZA AS DUAS COLUNAS DA DESCRIÇÃO E LOGIN ----------*/
+.second-column{
+	align-items: center; /*Centraliza os itens*/
+	background-color: #ffffff; /*cor de fundo da coluna*/
+	padding: 20px; /*espaçamento em todos os lados de dentro*/
+	border-radius: 15px;
+	/*para criar sombra nas bordas*/
+	box-shadow: 5px 5px 10px #0076a3;
+	-webkit-box-shadow: 5px 5px 10px #0076a3;
+	-moz-box-shadow: 5px 5px 10px #0076a3;
+	/*para criar sombra nas bordas*/
+
+}
+.second-column input{
+	align-items: center;
+
+}
+/* ---------- ESTILIZA OS TITULOS E PARAGRAFOS ----------*/
+.title-second{
+	color: #5F9EA0; /*cor do texto azul*/
+	font-size: 20pt; /*tamanho da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	text-align: center;
+}
+
+.pCadastro{ /*estiliza o paragrafo do cadastro*/
+	font-size: 15pt; /*tamanho da fonte*/
+	color: #DCDCDC; /*cor da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+}
+
+#esSenha{ /*estiliza o link*/
+	color: #008B8B; /*muda a cor do texto*/
+}
+/*ESTILIZA AS MSG DE ERRO DO CADASTRO*/
+div#msg-sucesso{
+	width: 420px; /*largura*/
+	margin: 10px auto; /*para centralizar*/
+}
+
+.msg-erro{
+	width: 420px; /*largura*/
+	margin: 10px auto; /*para centralizar*/
+	padding: 20px;
+	font-size: 20pt;
+	background-color: rgba(250,128,114,.1);
+}

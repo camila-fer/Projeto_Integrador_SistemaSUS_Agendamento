@@ -1,0 +1,63 @@
+.masterHeader{
+    border-bottom:3px solid #1E90FF;
+    text-align: center;
+    color: white;
+    background-image: url("C:/Users/Dell Gamer/Desktop/novoProjeto/imagens/dna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    height: 230px;
+}
+
+.navbar{
+	background-color: #1E90FF; /*cor de fundo do menu azul*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	
+}
+/* ====== ESTILIZA OS LINKS DO MENU ======*/
+.navbar .linha1:hover{ /*Faz aparecer a linha quando passar o mouse por cima*/
+	border-bottom: 2px solid #000080; /*crio uma borda azul*/
+	/*font-size: 14px; /*quando passa o mouse o texto muda de tamanho*/
+}
+.navbar .linha2:hover{ /*Faz aparecer a linha quando passar o mouse por cima*/
+	border-bottom: 2px solid #FF8C00; /*crio uma borda laranja*/
+	
+}
+.navbar .linha3:hover{ /*Faz aparecer a linha quando passar o mouse por cima*/
+	border-bottom: 2px solid #00BFFF; /*crio uma borda azul-claro*/
+	
+}
+.navbar .linha4:hover{ /*Faz aparecer a linha quando passar o mouse por cima*/
+	border-bottom: 2px solid #00FF7F; /*crio uma borda verde*/
+	
+}
+.navbar .linha5:hover{ /*Faz aparecer a linha quando passar o mouse por cima*/
+	border-bottom: 2px solid #FF0000; /*crio uma borda vermelho*/
+	
+}
+/* ====== ESTILIZA OS CARDS ======*/
+/*Muda cor de fundo dos cards*/
+#cardsFundo{
+	background-color: #e9e9e9; /*cor de fundo cinza*/
+	padding: 60px; /*espaçamento entre os lados de dentro do card*/
+}
+/*Muda a fonte dos cards*/
+#fonteCard{
+	font-size: 30px; /*tamanho da fonte*/
+	text-align: center; /*centraliza o texto*/
+	color: #696969; /*cor do texto em cinza*/
+	padding-bottom: 20px; /*espaço entre os conteúdos*/
+}
+/*Muda o primeiro card*/
+#card1{
+	margin-bottom: 50px; /*espaço de fora entre o card1 e o último*/
+}
+/*CAROUSEL*/
+#controleCarrossel{
+	border-bottom: 2px solid orange;
+}
+/* ====== ESTILIZA O RODAPÉ	 ====== */
+footer #esSenha{
+
+}

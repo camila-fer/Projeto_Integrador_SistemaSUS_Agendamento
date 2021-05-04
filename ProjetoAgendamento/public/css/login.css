@@ -1,0 +1,75 @@
+/*Estiliza o container para centralizar os itens*/
+.container{
+	display: flex; /*para que as colunas fiquem ao lado da outra*/
+	justify-content: center; /*centraliza os conteudos*/
+	align-items: center; /*alinha os conteudos verticalmente*/
+	height: 100vh; /*altura de 100%*/
+	background-color: rgb(176,224,230);
+}
+/*ESTILIZA TODA A LINHA QUE CONTEM OS CONTEUDOS*/
+.row{
+	justify-content: center; /*centraliza*/
+	width: 90%; /*largura*/
+	height: 50%; /*altura*/
+	border-radius: ;
+}
+/*ESTILIZA O MENU*/
+#menu ul{
+	
+}
+/* ---------- ESTILIZA AS DUAS COLUNAS DA DESCRIÇÃO E LOGIN ----------*/
+.first-column{
+	padding: 20px; /*espaçamento em todos os lados de dentro*/
+	border-top-left-radius: 15px; /*arredonda o topo e esquerda das bordas*/
+	border-bottom-left-radius: 15px; /*arredonda embaixo e esquerda das bordas*/
+	/*para criar sombra nas bordas*/
+	box-shadow: 5px 5px 10px #0076a3;
+	-webkit-box-shadow: 5px 5px 10px #0076a3;
+	-moz-box-shadow: 5px 5px 10px #0076a3;
+	/*para criar sombra nas bordas*/
+	background-color: rgb(95,158,160); /*cor de fundo*/
+}
+
+.second-column{
+	align-items: center; /*Centraliza os itens*/
+	background-color: #ffffff; /*cor de fundo da coluna*/
+	padding: 20px; /*espaçamento em todos os lados de dentro*/
+	border-top-right-radius: 15px; /*arredonda o topo e a direita das bordas*/
+	border-bottom-right-radius: 15px; /*arredonda embaixo e a direita das bordas*/
+	/*para criar sombra nas bordas*/
+	box-shadow: 5px 5px 10px #0076a3;
+	-webkit-box-shadow: 5px 5px 10px #0076a3;
+	-moz-box-shadow: 5px 5px 10px #0076a3;
+	/*para criar sombra nas bordas*/
+}
+.second-column input{
+	align-items: center;
+
+}
+/* ---------- ESTILIZA OS TITULOS E PARAGRAFOS ----------*/
+.title-primary{
+	color: #ffffff; /*cor da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	font-size: 20pt; /*tamanho da fonte*/
+}
+
+.description-primary{
+	color: #ffffff; /*cor do texto*/
+}
+
+.title-second{
+	color: #5F9EA0; /*cor do texto azul*/
+	font-size: 20pt; /*tamanho da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+	text-align: center;
+}
+
+.pCadastro{ /*estiliza o paragrafo do cadastro*/
+	font-size: 15pt; /*tamanho da fonte*/
+	color: #DCDCDC; /*cor da fonte*/
+	font-weight: bolder; /*deixa as fontes em negrito*/
+}
+
+#esSenha{ /*estiliza o link*/
+	color: #008B8B; /*muda a cor do texto*/
+}

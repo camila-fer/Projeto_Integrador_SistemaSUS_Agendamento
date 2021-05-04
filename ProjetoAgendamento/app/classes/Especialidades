@@ -1,0 +1,29 @@
+<?php
+//Criação da classe
+class Especialidades{
+	private $conn; //instancio a variavel privada
+	public $msgErro = "";
+	//Método para conectar ao BD
+	public function conectar($dbname, $host, $usuario, $senha){ //é o ponto de partida do código
+		global $conn;
+		//CONEXÃO
+		try{
+			$conn = new PDO("mysql:dbname=".$dbname.";host=".$host, $usuario, $senha);
+		}
+		catch(PDOException $e){ //erro no BD
+			$msgErro - $e->getMessage();
+		}
+	}
+	//MÉTODO que busca as infos no BD e colocar no canto direito da tela
+	public function buscarEspeci(){
+		global $conn;
+		global $msgErro;
+
+		$result = array(); //caso esteja vazio não da nenhum erro
+		$cmd = $conn->query("SELECT nome FROM especialidades ORDER BY nome");
+		//PDO::FETCH_ASSOC = economiza memória
+		$result = $cmd->fetchAll(PDO::FETCH_ASSOC); //variavel em forma de array
+		return $result; //retorna a variavel
+	}
+}
+?>
